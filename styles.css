@@ -92,8 +92,8 @@ p {
 
 .avatar {
   border-radius: 50%;
-  width: 24mm;
-  height: 24mm;
+  width: 25.5mm;
+  height: 25.5mm;
   margin-right: 8mm;
 }
 
@@ -123,6 +123,10 @@ p {
 .contactbox {
   padding-top: 3mm;
   font-size: 14px;
+}
+
+.contactline {
+  text-align: right;
 }
 
 .section:not(:last-child) {
