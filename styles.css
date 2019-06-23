@@ -114,6 +114,12 @@ p {
   padding-left: 3px;
 }
 
+.subsubtitle {
+  padding-left: 3px;
+  color: #757575;
+  font-size: 12px;
+}
+
 .contactbox {
   padding-top: 3mm;
   font-size: 14px;
