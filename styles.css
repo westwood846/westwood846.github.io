@@ -132,14 +132,14 @@ p {
   text-align: right;
 }
 
-.section:not(:last-child) {
+/* .section:not(:last-child) {
   border-bottom: 1px solid #e7e7e7;
-}
+} */
 
 .section {
   display: grid;
-  grid-template-columns: 200px auto;
-  margin-top: 6mm;
+  grid-template-columns: 190px auto;
+  margin-top: 4mm;
 }
 
 .section-title {
@@ -148,7 +148,7 @@ p {
 }
 
 .section-body {
-  padding-bottom: 10mm;
+  padding-bottom: 2mm;
 }
 
 .subsection:not(:first-child) {
@@ -156,7 +156,10 @@ p {
 }
 
 .section-body-subtitle {
-  margin-bottom: 2mm;
+  margin-bottom: 1mm;
+  color: #AAA;
+  font-weight: normal;
+  font-size: 12px;
 }
 
 .section-body-text {
@@ -185,4 +188,8 @@ p {
   font-weight: 100;
   font-size: 11px;
   font-family: "Roboto Mono", monospace;
+}
+
+hr {
+  background-color: #EEE; height: 1px; border: 0
 }
