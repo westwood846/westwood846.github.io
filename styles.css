@@ -138,7 +138,7 @@ p {
 
 .section {
   display: grid;
-  grid-template-columns: 160px auto;
+  grid-template-columns: 150px auto;
   margin-top: 4mm;
 }
 
@@ -192,4 +192,13 @@ p {
 
 hr {
   background-color: #EEE; height: 1px; border: 0
+}
+
+.section-body-list {
+  margin-top: 0;
+  padding-left: 24px;
+}
+
+.section-body-list > li {
+  margin-bottom: 0.3em;
 }
